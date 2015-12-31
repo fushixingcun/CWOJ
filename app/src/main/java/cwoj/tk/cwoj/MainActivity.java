@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
 //    private Toolbar toolbar;
@@ -58,4 +60,5 @@ public class MainActivity extends AppCompatActivity {
     public void settings(View view){
         startActivity(new Intent(MainActivity.this, SettingsActivity.class));
     }
+
 }

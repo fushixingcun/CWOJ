@@ -32,6 +32,7 @@
         android:layout_margin="@dimen/fab_margin"
         app:rippleColor="@color/colorAccentPressed"
         app:elevation="6dp"
+        android:onClick="settings"
         app:pressedTranslationZ="12dp"
         android:src="@android:drawable/ic_dialog_info" />
 

@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#b300ff</color>
     <color name="colorAccentPressed">#39006b</color>
+    <color name="cardColor">#0041f5</color>
+    <color name="settingItemColor">#4edcff</color>
 </resources>
