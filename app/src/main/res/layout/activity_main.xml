@@ -30,10 +30,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
+        android:onClick="settings"
+        android:src="@android:drawable/ic_dialog_info"
         app:rippleColor="@color/colorAccentPressed"
         app:elevation="6dp"
-        android:onClick="settings"
-        app:pressedTranslationZ="12dp"
-        android:src="@android:drawable/ic_dialog_info" />
+        app:pressedTranslationZ="12dp"/>
 
 </android.support.design.widget.CoordinatorLayout>
