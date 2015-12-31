@@ -14,6 +14,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import util.OnItemClickListener;
+
 public class SettingsActivity extends AppCompatActivity {
 
     private RecyclerView setting;
@@ -103,11 +105,4 @@ public class SettingsActivity extends AppCompatActivity {
             }
         }
     }
-}
-
-
-interface OnItemClickListener {
-    void onItemClick(View view, int position);
-    void onItemLongClick(View view , int position);
-    void onItemTouch(View view, int position, MotionEvent event);
 }
